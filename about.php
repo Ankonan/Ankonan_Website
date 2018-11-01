@@ -1,93 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ANKONAN</title>
-    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=latin-ext" rel="stylesheet">
-    
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125206974-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-125206974-1');
-</script>
+<?php
+    include "header.php";
+?>
 
 <body>
-    <header class="site-header">
-        <div class="top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p>Blockchain and Atlassian experts</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <ul class="list-inline pull-right">
-			    <li><a herf="#"><i class="fa fa-youtube"></i></a></li>
-			    <li><a herf="#"><i class="fa fa-medium"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="https://twitter.com/ankonanio"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/ankonan/"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-                            <li><a href="tel:+34934860655"><i class="fa fa-phone"></i> +34 93 486 06 55</a></li>
-                        </ul>                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        <nav class="navbar navbar-default">
-			<div class="container">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
-					<span class="sr-only">Toggle Navigation</span>
-					<i class="fa fa-bars"></i>
-				</button>
-				<a href="index.html" class="navbar-brand">
-					<img src="img/logo.png" alt="Logo">
-				</a>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-navbar-collapse">
-                    <ul class="nav navbar-nav main-navbar-nav">
-                        <li class="active"><a href="index.html" title="">HOME</a></li>
-			<li><a href="about.html" title="">About Us</a></li>
-			<!--<li class="dropdown"><a href="#" title="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">P & S</a>
-			<ul class="dropdown-menu">
-                                <li><a href="products.html" title="">Products</a></li>
-                                <li><a href="services.html" title="">Services</a></li>
-                            </ul>
-			</li>-->
-                        <li><a href="services.html" title="">Services</a></li>
-			<li><a href="solutions.html" title="">Industry Solutions</a></li>
-                        <li class="dropdown">
-                            <a href="#" title="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support & Training <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <!--<li><a href="downloads.html" title="">Downloads</a></li>
-                                <li><a href="docs.html" title="">Documentation</a></li>-->
-                                <li><a href="http://support.ankonan.io" title="">Service Desk</a></li>
-				<li><a href="training.html" title="">Training</a></li>
-                            </ul>
-                        </li>
-			<li><a href="http://support.ankonan.io" >Contact</a></li>
-                        
-                    </ul>                           
-                </div><!-- /.navbar-collapse -->                    
-				<!-- END MAIN NAVIGATION -->
-			</div>
-		</nav>        
-    </header>
+    <?php
+    include "menu.php";
+    ?>
     <div class="bread_area">
         <div class="container">
             <div class="row">
@@ -235,69 +155,8 @@
 
 
     </main>
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12 fbox">
-                    <h4>ANKONAN</h4>
-                    <p class="text">Put the icing on the cake.</p>
-                    <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="https://twitter.com/ankonanio"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/ankonan/"><i class="fa fa-linkedin"></i></a></li>                        
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 fbox">
-                    <h4>SERVICES</h4>
-                    <ul class="big">
-                        <li><a href="services.html" title="">Consulting</a></li>
-                        <li><a href="services.html" title="">Outsourcing</a></li>
-                        <li><a href="services.html" title="">I+D+I</a></li>
-                        <li><a href="services.html" title="">App Management</a></li>
-                        <li><a href="services.html" title="">Hosting Mgm</a></li>
-                        <li><a href="services.html" title="">End to end services</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 fbox">
-                    <h4>PRODUCTS</h4>
-                    <ul class="big">
-                        <li><a href="#" title="">Mr. Addon Plugins</a></li>
-                        <li><a href="#" title="">Blockchain Payments</a></li>
-                        <li><a href="#" title="">CoinMarketRank</a></li>
-                        <li><a href="#" title="">Knowtech App</a></li>
-                        <!--<li><a href="#" title="">Title Five</a></li>
-                        <li><a href="#" title="">Title Six</a></li>-->
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 fbox">
-                    <h4>CONTACT</h4>
-                    <p class="text">Avda. Diagonal, 188-198 5th floor. 08018 Barcelona</p>
-                    <p><a href="tel:+34934860655"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> +34 934 860 655</a></p>
-                    <p><a href="mailto:support@ankonan.io"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> support@ankonan.io</a></p>
-                </div>
-            </div>
-        </div>
-        <div id="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <p class="pull-left">&copy; 2018 ANKONAN</p>
-                    </div>
-                    <div class="col-md-8">
-                        <ul class="list-inline navbar-right">
-                            <li><a href="index.html">HOME</a></li>
-                            <li><a href="about.html">ABOUT US</a></li>
-                            <li><a href="products.html">PRODUCTS</a></li>
-			    <li><a href="services.html">SERVICES</a></li>
-                            <li><a href="solutions.html">SOLUTIONS</a></li>
-                            <li><a href="#">SUPPORT</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>        
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <?php
+    include "footer.php";
+    ?>
 </body>
 </html>
