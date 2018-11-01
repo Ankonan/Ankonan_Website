@@ -57,36 +57,9 @@
                         <div class="col-sm-12"><h2 class="sub_title">LATEST NEWS</h2></div>
                         <div class="home_list2">
                             <ul>
-                                <li class="col-md-4 col-sm-6 col-xs-12">
-                                    <div class="thumbnail">
-                                        <img src="img/cbsa.jpg" alt="Post">
-                                        <div class="caption">
-                                            <h3><a href="#">We are Solutions Architects</a></h3>
-                                            <p>Raul and Sebastien have obtained the CBSA certification (Blockchain Solution Architect) from the Blockchain Training Alliance. This achievement shows the expertise of our team and their knowledge of blockchain solutions. Great job guys!</p>
-                                            <a href="#" class="btn btn-link" role="button">More</a>
-                                        </div>
-                                    </div>                                        
-                                </li>
-                                <li class="col-md-4 col-sm-6 col-xs-12">
-                                    <div class="thumbnail">
-                                        <img src="img/agreement.jpg" class="img-responsive" alt="Post">
-                                        <div class="caption">
-                                            <h3><a href="#">Sign training agreement</a></h3>
-                                            <p>ANKONAN and KNOWTECH have announced an agreement to share training services. KNOWTECH will provide ANKONAN with its complete training technology portfolio, assisting the company in its efforts to bring its blockchain technology to his customers.</p>
-                                            <a href="#" class="btn btn-link" role="button">More</a>
-                                        </div>
-                                    </div>                                        
-                                </li>
-                                <li class="col-md-4 col-sm-6 col-xs-12">
-                                    <div class="thumbnail">
-                                        <img src="img/h3.jpg" class="img-responsive" alt="Post">
-                                        <div class="caption">
-                                            <h3><a href="#">Bologna Atlassian User Group (AUG)</a></h3>
-                                            <p>Raul will be speaker in the next Atlassian User Group (AUG) event in Bologna (Italy) talking about the MrAddon's plugins and how these plugins can change the usual and bored way to work with Jira in a new colored-fashion/gammificated way.</p>
-                                            <a href="https://aug.atlassian.com/events/details/atlassian-bologna-presents-atlassian-user-group-bologna-post-summit-report-et-al" class="btn btn-link" role="button">More</a>
-                                        </div>
-                                    </div>                                        
-                                </li>
+                                <?php
+                                    include "posts.php";
+                                ?>
 <!--
                                 <li class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="thumbnail">

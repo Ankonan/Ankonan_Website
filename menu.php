@@ -4,16 +4,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <p>Blockchain and Atlassian experts</p>
+                        <p>Technological Services specialized in Blockchain</p>
                     </div>
                     <div class="col-sm-6">
                         <ul class="list-inline pull-right">
-			    <li><a herf="#"><i class="fa fa-youtube"></i></a></li>
-			    <li><a herf="#"><i class="fa fa-medium"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+			    <li><a href="https://www.youtube.com/channel/UChlqSf8rCqg0pJkpQ_k5yrA"><i class="fa fa-youtube"></i></a></li>
+			    <!--<li><a herf="#"><i class="fa fa-medium"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>-->
                             <li><a href="https://twitter.com/ankonanio"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="https://www.linkedin.com/company/ankonan/"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+                            <!--<li><a href="#"><i class="fa fa-envelope-o"></i></a></li>-->
                             <li><a href="tel:+34934860655"><i class="fa fa-phone"></i> +34 93 486 06 55</a></li>
                         </ul>                        
                     </div>
@@ -26,7 +26,7 @@
 					<span class="sr-only">Toggle Navigation</span>
 					<i class="fa fa-bars"></i>
 				</button>
-				<a href="index.html" class="navbar-brand">
+				<a href="index.php" class="navbar-brand">
 					<img src="img/logo.png" alt="Logo">
 				</a>
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,7 +53,7 @@
                             </ul>
                         </li>
 			<!--<li><a href="#" data-toggle="modal" data-target="#modal1">Contact</a></li>-->
-                        <li><a href="http://support.ankonan.io" >Contact</a></li>
+                        <li><a href="https://ankonan.atlassian.net/servicedesk/customer/portal/1/group/1/create/4" >Contact</a></li>
                         
                     </ul>                           
                 </div><!-- /.navbar-collapse -->                
