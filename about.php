@@ -38,32 +38,42 @@
  			<div class="col-sm-12"><h2 class="sub_title">THE FOUNDERS</h2></div>
                         <div class="home_list">
                             <ul>
-                                <li class="col-md-3 col-sm-6 col-xs-12">
+                                <li class="col-md-2 col-sm-4 col-xs-8">
                                     <div class="thumbnail">
-                                        <img src="img/raul2.png" alt="Post">
+                                        <img src="img/monica.png" class="img-responsive"  alt="Post">
+                                        <div class="caption">
+                                            <h4>MONICA GOMEZ</h4>
+                                            <p>Legal</p>
+                                            <a href="https://www.linkedin.com/in/mónica-gómez-4767b32b/" class="btn btn-link" role="button">More</a>
+                                        </div>
+                                    </div>                                        
+                                </li>
+                                <li class="col-md-2 col-sm-4 col-xs-8">
+                                    <div class="thumbnail">
+                                        <img src="img/raul2.png" class="img-responsive" alt="Post">
                                         <div class="caption">
                                             <h4>RAUL PELAEZ</h4>
-                                            <p>Chief Operating Officer.</p>
+                                            <p>CTO</p>
                                             <a href="https://www.linkedin.com/in/raúl-peláez-mendoza-ba037a28/" class="btn btn-link" role="button">More</a>
                                         </div>
                                     </div>                                        
                                 </li>
-                                <li class="col-md-3 col-sm-6 col-xs-12">
+                                <li class="col-md-2 col-sm-4 col-xs-8">
                                     <div class="thumbnail">
                                         <img src="img/sebs2.png" class="img-responsive" alt="Post">
                                         <div class="caption">
                                             <h4>SEBS. FOUACHE</h4>
-                                            <p>Chief Marketing Officer.</p>
+                                            <p>CMO</p>
                                             <a href="https://www.linkedin.com/in/sebastienfouache" class="btn btn-link" role="button">More</a>
                                         </div>
                                     </div>                                        
                                 </li>
-				<li class="col-md-3 col-sm-6 col-xs-12">
+				<li class="col-md-2 col-sm-4 col-xs-8">
                                     <div class="thumbnail">
                                         <img src="img/david2.png" class="img-responsive" alt="Post">
                                         <div class="caption">
                                             <h4>DAVID SOTO</h4>
-                                            <p>Executive Manager.</p>
+                                            <p>CEO</p>
                                             <a href="https://www.linkedin.com/in/davidsoto" class="btn btn-link" role="button">More</a>
                                         </div>
                                     </div>                                        
@@ -76,9 +86,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12"><h2 class="sub_title">THE TEAM</h2></div>
-                        <div class="home_list2">
+                        <div class="home_list">
                             <ul>
-                                <li class="col-md-3 col-sm-6 col-xs-12">
+                                <li class="col-md-2 col-sm-4 col-xs-8">
                                     <div class="thumbnail">
                                         <img src="img/eugenio.jpg" alt="Post">
                                         <div class="caption">
@@ -88,27 +98,17 @@
                                         </div>
                                     </div>                                        
                                 </li>
-                                <li class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="thumbnail">
-                                        <img src="img/monica.jpg" class="img-responsive" alt="Post">
-                                        <div class="caption">
-                                            <h4>MONICA GOMEZ</h4>
-                                            <p>Lawyer</p>
-                                            <a href="https://www.linkedin.com/in/mónica-gómez-4767b32b/" class="btn btn-link" role="button">More</a>
-                                        </div>
-                                    </div>                                        
-                                </li>
-                                <li class="col-md-3 col-sm-6 col-xs-12">
+                                <li class="col-md-2 col-sm-4 col-xs-8">
                                     <div class="thumbnail">
                                         <img src="img/fabio.jpg" class="img-responsive" alt="Post">
                                         <div class="caption">
                                             <h4>FABIO GENOVESE</h4>
-                                            <p>Chief Technology Officer.</p>
+                                            <p>Atlassian Advisor.</p>
                                             <a href="https://www.linkedin.com/in/artigianodelsoftware" class="btn btn-link" role="button">More</a>
                                         </div>
                                     </div>                                        
                                 </li>
-                                <li class="col-md-3 col-sm-6 col-xs-12">
+                                <li class="col-md-2 col-sm-4 col-xs-8">
                                     <div class="thumbnail">
                                         <img src="img/joseph.jpg" class="img-responsive" alt="Post">
                                         <div class="caption">
