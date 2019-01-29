@@ -22,3 +22,27 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+Recommended .htaccess
+
+# BEGIN Ankonan
+<IfModule mod_rewrite.c>
+RewriteEngine On
+ RewriteCond %{HTTP_HOST} !^www\. [NC]
+ RewriteCond %{HTTPS} !=on
+ RewriteRule ^(.*)$ https://www.%{SERVER_NAME}%{REQUEST_URI} [R,L]
+</IfModule>
+
+# END Ankonan
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
