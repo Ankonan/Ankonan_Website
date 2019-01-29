@@ -28,9 +28,9 @@ Recommended .htaccess
 
 # BEGIN Ankonan
 <IfModule mod_rewrite.c>
-RewriteEngine On
- RewriteCond %{HTTP_HOST} !^www\. [NC]
+ RewriteEngine On
  RewriteCond %{HTTPS} !=on
+ RewriteCond %{HTTP_HOST} !^www\. [NC]
  RewriteRule ^(.*)$ https://www.%{SERVER_NAME}%{REQUEST_URI} [R,L]
 </IfModule>
 
