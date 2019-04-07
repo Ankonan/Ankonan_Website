@@ -44,7 +44,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <p class="pull-left">&copy; 2018 ANKONAN</p>
+                        <p class="pull-left">&copy; 2018 ANKONAN - <a href="https://www.ankonan.io/blog/ankonan-privacy-policy/">Cookies & Privacy Policy</a></p>
                     </div>
                     <div class="col-md-8">
                         <ul class="list-inline navbar-right">
