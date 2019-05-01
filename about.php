@@ -35,7 +35,7 @@
 
 <div class="container">
                     <div class="row">
- 			<div class="col-sm-12"><h2 class="sub_title">THE FOUNDERS</h2></div>
+ 			<div class="col-sm-12"><h2 class="sub_title">THE TEAM</h2></div>
                         <div class="home_list">
                             <ul>
                                 <li class="col-md-2 col-sm-4 col-xs-8">
@@ -82,7 +82,7 @@
                         </div>
 
 
- 
+ <!--
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12"><h2 class="sub_title">THE TEAM</h2></div>
@@ -121,7 +121,7 @@
                             </ul>
                         </div>                      
                     </div>
-                </div>
+                </div>-->
             </div>
         </section>
         </section>
